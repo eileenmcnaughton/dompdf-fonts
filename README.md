@@ -4,7 +4,7 @@ This extension adds support to unicode characters to the domPdf
 extension. It is not required for drupal8+ installs which should
 get the fonts when installing using composer.
 
-[see](https://docs.civicrm.org/installation/en/latest/general/unicode_pdf/)
+See the [core installation guide](https://docs.civicrm.org/installation/en/latest/general/unicode_pdf/) for more details.
 
 
 #  Before
@@ -12,8 +12,6 @@ get the fonts when installing using composer.
 
 # After
 ![img.png](images/fixed.png)
-
-Adds support to domPdf pdf creation for unicode characters - as
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
@@ -52,5 +50,5 @@ Just install the extension
 
 ## Known Issues
 
-The documentation suggests further fonts should be added. Also, if pasting
+The core installation guide suggests further fonts should be added if you need CJK characters. Also, if pasting
 from word then your html may reference other fonts that do not support unicode.
