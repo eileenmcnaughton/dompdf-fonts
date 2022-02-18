@@ -8,7 +8,10 @@ get the fonts when installing using composer.
 
 
 #  Before
-![img.png](images/img.png) ->
+![img.png](images/borked.png)
+
+# After
+![img.png](images/fixed.png)
 
 Adds support to domPdf pdf creation for unicode characters - as
 
