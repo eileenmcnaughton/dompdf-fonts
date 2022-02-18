@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<extension key="dompdf-fonts" type="module">
+  <file>dompdf_fonts</file>
+  <name>DomPDF fonts</name>
+  <description>Additional fonts to support character sets when creating PDFs using DomPDF</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>eileen</author>
+    <email>emcnaughton@wikimedia.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://FIXME</url>
+    <url desc="Documentation">https://docs.civicrm.org/installation/en/latest/general/unicode_pdf/</url>
+    <url desc="Support">http://chat.civicrm.org</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2022-02-18</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>5.47</ver>
+  </compatibility>
+  <comments></comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/DompdfFonts</namespace>
+  </civix>
+</extension>
