@@ -20,11 +20,15 @@
   <compatibility>
     <ver>5.47</ver>
   </compatibility>
-  <comments></comments>
+  <comments/>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
   <civix>
     <namespace>CRM/DompdfFonts</namespace>
+    <format>24.09.1</format>
   </civix>
+  <mixins>
+    <mixin>entity-types-php@2.0.0</mixin>
+  </mixins>
 </extension>
